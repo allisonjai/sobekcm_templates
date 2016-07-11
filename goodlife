@@ -8,8 +8,6 @@
 	
 	<!-- Define the information about this input template -->
 	<name>Good life</name>
-	<notes>Template for goodlife</notes>
-	<permissions>&lt;img src=&quot;&lt;%BASEURL%&gt;default/images/cc_by_nc_nd.png&quot; title=&quot;Creative Commons Attribution Non-Commercial Share Alike License&quot; &gt; All learning objects uploaded to this system are licensed with the Creative Commons Attribution Non-Commercial Share Alike License.  This license lets others remix, tweak, and build upon this work non-commercially, as long as they credit the author and license their new creations under the identical terms.  I certify that I own sufficient rights over this item to deposit the item within this repository under this license agreement.&lt;br /&gt;&lt;br /&gt;</permissions>
 	<dateCreated>July 11, 2016</dateCreated>
 	<lastModified>July 11, 2016</lastModified>
 	<creator>Allison Jai O'Dell</creator>

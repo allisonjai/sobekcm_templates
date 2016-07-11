@@ -51,5 +51,6 @@
 		</page>
 	</inputs>
  <!--  This defines the constants which can not be edited by the user   --> 
-</constants>
+ <constants>
+ </constants>
 </input_template>

@@ -4,24 +4,24 @@
 	xsi:schemaLocation="http://sobekrepository.org/schemas/sobekcm_config
 		http://sobekrepository.org/schemas/sobekcm_config.xsd">
 	<TemplateElements>
-		<TemplateElement type="aggregations" class="Aggregations_Element">goodlife</TemplateElement>
+		<TemplateElement type="aggregations" class="Aggregations_Element" />
 		<TemplateElement type="bibid" class="BibID_Element" />
 		<TemplateElement type="creator" subtype="simple" class="Creator_Element" />
-		<TemplateElement type="creator" subtype="fixed_role" class="Creator_Fixed_Role_Element">creator</TemplateElement>
+		<TemplateElement type="creator" subtype="fixed_role" class="Creator_Fixed_Role_Element" />
 		<TemplateElement type="date" class="Date_Element" />
-		<TemplateElement type="format" class="Format_Element">Audio</TemplateElement>
-		<TemplateElement type="genre" class="Genre_Element">IUF 1000</TemplateElement>
-		<TemplateElement type="language" class="Language_Element">English</TemplateElement>
+		<TemplateElement type="format" class="Format_Element" />
+		<TemplateElement type="genre" class="Genre_Element" />
+		<TemplateElement type="language" class="Language_Element" />
 		<TemplateElement type="language" subtype="select" class="Language_Select_Element" />
 		<TemplateElement type="main thumbnail" class="Main_Thumbnail_Element" />
 		<TemplateElement type="note" class="Note_Complex_Element" />
 		<TemplateElement type="note" subtype="simple" class="Note_Element" />
-		<TemplateElement type="publication place" class="Publication_Place_Element">Gainesville, Florida</TemplateElement>
-		<TemplateElement type="publisher" class="Publisher_Complex_Element">University of Florida</TemplateElement>
-		<TemplateElement type="rights" class="Rights_Element">Copyright of creator. Permission granted to University of Florida to digitize and display this item for non-profit research and educational purposes. Any reuse of this item in excess of fair use or other copyright exemptions requires permission of the copyright holder.</TemplateElement>
+		<TemplateElement type="publication place" class="Publication_Place_Element" />
+		<TemplateElement type="publisher" class="Publisher_Complex_Element" />
+		<TemplateElement type="rights" class="Rights_Element" />
 		<TemplateElement type="subject" subtype="simple" class="Subject_Element" />
 		<TemplateElement type="title" subtype="simple" class="Title_Main_Element" />
-		<TemplateElement type="type" class="Type_Format_Form_Element">Audio</TemplateElement>
+		<TemplateElement type="type" class="Type_Format_Form_Element" />
 		<TemplateElement type="vid" class="VID_Element" />
 		<TemplateElement type="viewer" class="Viewer_Element" />
 		<TemplateElement type="visibility" class="Visibility_Element" />

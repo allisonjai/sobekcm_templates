@@ -1,30 +1,57 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<SobekCM_Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns="http://sobekrepository.org/schemas/sobekcm_config"
-	xsi:schemaLocation="http://sobekrepository.org/schemas/sobekcm_config
-		http://sobekrepository.org/schemas/sobekcm_config.xsd">
-	<TemplateElements>
-		<TemplateElement type="aggregations" class="Aggregations_Element" />
-		<TemplateElement type="bibid" class="BibID_Element" />
-		<TemplateElement type="creator" subtype="simple" class="Creator_Element" />
-		<TemplateElement type="creator" subtype="fixed_role" class="Creator_Fixed_Role_Element" />
-		<TemplateElement type="date" class="Date_Element" />
-		<TemplateElement type="format" class="Format_Element" />
-		<TemplateElement type="genre" class="Genre_Element" />
-		<TemplateElement type="language" class="Language_Element" />
-		<TemplateElement type="language" subtype="select" class="Language_Select_Element" />
-		<TemplateElement type="main thumbnail" class="Main_Thumbnail_Element" />
-		<TemplateElement type="note" class="Note_Complex_Element" />
-		<TemplateElement type="note" subtype="simple" class="Note_Element" />
-		<TemplateElement type="publication place" class="Publication_Place_Element" />
-		<TemplateElement type="publisher" class="Publisher_Complex_Element" />
-		<TemplateElement type="rights" class="Rights_Element" />
-		<TemplateElement type="subject" subtype="simple" class="Subject_Element" />
-		<TemplateElement type="title" subtype="simple" class="Title_Main_Element" />
-		<TemplateElement type="type" class="Type_Format_Form_Element" />
-		<TemplateElement type="vid" class="VID_Element" />
-		<TemplateElement type="viewer" class="Viewer_Element" />
-		<TemplateElement type="visibility" class="Visibility_Element" />
-	</TemplateElements>
-</SobekCM_Config>
+<?xml version="1.0" encoding="utf-8"?>
 
+<input_template
+  xmlns="http://digital.uflib.ufl.edu/metadata/sobekcm_template/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://digital.uflib.ufl.edu/metadata/sobekcm_template/
+		http://digital.uflib.ufl.edu/metadata/sobekcm_template/sobekcm_template.xsd">
+	
+	<!-- Define the information about this input template -->
+	<name>Good life</name>
+	<notes>Template for goodlife</notes>
+	<permissions>&lt;img src=&quot;&lt;%BASEURL%&gt;default/images/cc_by_nc_nd.png&quot; title=&quot;Creative Commons Attribution Non-Commercial Share Alike License&quot; &gt; All learning objects uploaded to this system are licensed with the Creative Commons Attribution Non-Commercial Share Alike License.  This license lets others remix, tweak, and build upon this work non-commercially, as long as they credit the author and license their new creations under the identical terms.  I certify that I own sufficient rights over this item to deposit the item within this repository under this license agreement.&lt;br /&gt;&lt;br /&gt;</permissions>
+	<dateCreated>July 11, 2016</dateCreated>
+	<lastModified>July 11, 2016</lastModified>
+	<creator>Allison Jai O'Dell</creator>
+	<includeUserAsAuthor>false</includeUserAsAuthor>
+	<uploads>FILE</uploads>
+	<uploadMandatory>true</uploadMandatory>
+	<bibidRoot>AA</bibidRoot>
+	<defaultVisibility>PRIVATE</defaultVisibility>
+	<emailUponSubmit>ajodell@ufl.edu</emailUponSubmit>
+	
+
+
+	<!-- This defines the inputs which are available for the user -->
+	<inputs>
+		<page>
+			<name language="eng">Item Description</name>
+			<panel>
+				<name language="eng">Basic Information</name>
+				<element type="aggregations" />
+				<element type="bibid" />
+				<element type="creator" subtype="simple" />
+				<element type="creator" subtype="fixed_role" />
+				<element type="date" />
+				<element type="format" />
+				<element type="genre" />
+				<element type="language" />
+				<element type="language" subtype="select" />
+				<element type="main thumbnail" />
+				<element type="note" />
+				<element type="note" subtype="simple" />
+				<element type="publication place" />
+				<element type="publisher" />
+				<element type="rights" />
+				<element type="subject" subtype="simple" />
+				<element type="title" subtype="simple" />
+				<element type="type" />
+				<element type="vid" />
+				<element type="viewer" />
+				<element type="visibility" />			
+			</panel>
+		</page>
+	</inputs>
+ <!--  This defines the constants which can not be edited by the user   --> 
+</constants>
+</input_template>

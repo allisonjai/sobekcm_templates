@@ -17,8 +17,6 @@
 	<bibidRoot>AA</bibidRoot>
 	<defaultVisibility>PRIVATE</defaultVisibility>
 	<emailUponSubmit>ajodell@ufl.edu</emailUponSubmit>
-	
-
 
 	<!-- This defines the inputs which are available for the user -->
 	<inputs>
@@ -71,6 +69,7 @@
 			</panel>
 		</page>
 	</inputs>
+
  <!--  This defines the constants which can not be edited by the user   --> 
 	<constants>
 		<element type="Acquisition">

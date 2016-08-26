@@ -26,31 +26,69 @@
 			<name language="eng">Item Description</name>
 			<panel>
 				<name language="eng">Basic Information</name>
-				<element type="aggregations" />
-				<element type="bibid" />
-				<element type="creator" subtype="simple" />
-				<element type="creator" subtype="fixed_role" />
-				<element type="date" />
-				<element type="format" />
-				<element type="genre" />
-				<element type="language" />
-				<element type="language" subtype="select" />
-				<element type="main thumbnail" />
-				<element type="note" />
-				<element type="note" subtype="simple" />
-				<element type="publication place" />
-				<element type="publisher" />
-				<element type="rights" />
-				<element type="subject" subtype="simple" />
 				<element type="title" subtype="simple" />
-				<element type="type" />
-				<element type="vid" />
-				<element type="viewer" />
-				<element type="visibility" />			
+				<element type="subject" subtype="simple" />
+				<element type="genre">
+					<element_data>
+						<value>Essay</value>
+					</element_data>
+				</element>
+				<element type="creator" subtype="simple" acronym="Enter each person or group which created this material. Personal names should be entered as [Family Name], [Given Name]." repeatable="true"/>
+				<element type="language">
+					<element_data>
+						<value>English</value>
+					</element_data>
+				</element>
+				<element type="Abstract" repeatable="true" subtype="simple" acronym="Enter abstract here.  If your material does not have an abstract, you may include a summary of the document here."/>
+				<element type="Note" repeatable="true" subtype="simple"
+				         acronym="Enter any additional information that is important for describing your material.  Include significant keywords or other data useful for finding your material in a citation-only search."/>
+				<element type="publication place">
+					<element_data>
+						<value>Gainesville, Fla.</value>
+					</element_data>
+				</element>
+				<element type="publisher">
+					<element_data>
+						<value>University of Florida</value>
+					</element_data>
+				</element>
+				<element type="Date" acronym="Enter the year (only) in which the material was produced.">
+					<element_data>
+						<value>2016</value>
+					</element_data>
+				</element>
+			</panel>
+			<panel>
+				<name language="eng">Administrative Information</name>
+				<element type="visibility" />	
+				<element type="Type"  subtype="ir" mandatory="true" acronym="Select the type which best categorizes this material.">
+					<element_data>
+						<value>Course Material</value>
+						<options>Book Chapter, Conference Papers, Conference Proceedings, Course Material, Dataset, Journal Article, Other, Technical Reports</options>
+					</element_data>
+				</element>
+				<element type="rights" />
 			</panel>
 		</page>
 	</inputs>
  <!--  This defines the constants which can not be edited by the user   --> 
- <constants>
- </constants>
+	<constants>
+		<element type="Acquisition">
+			<element_data>
+				<value>Collected for University of Florida's Institutional Repository by the UFIR Self-Submittal tool.</value>
+			</element_data>
+		</element>
+		<element type="Source" subtype="complex">
+			<element_data>
+				<code>UFIR</code>
+				<statement>University of Florida Institutional Repository</statement>
+				<options>UFIR</options>
+			</element_data>
+		</element>
+		<element type="aggregations">
+			<element_data>
+				<value>goodlife</value>
+			</element_data>
+		</element>
+	</constants>
 </input_template>

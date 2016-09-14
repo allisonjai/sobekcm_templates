@@ -28,10 +28,14 @@
 				<element type="creator" subtype="simple" acronym="Enter each person or group which created this material." repeatable="true"/>
 				<element type="Format" />
 				<element type="subject" subtype="simple" repeatable="true" />
+				<element type="spatial" class="Hierarchical_Spatial_Form_Element" />
+				<element type="temporal" class="Temporal_Complex_Element" />
 				<element type="Abstract" repeatable="true" subtype="simple" acronym="Enter abstract here.  If your material does not have an abstract, you may include a summary of the document here."/>
 				<element type="Note" repeatable="true" subtype="simple"
 				         acronym="Enter any additional information that is important for describing your material.  Include significant keywords or other data useful for finding your material in a citation-only search."/>
 				<element type="Date" acronym="Enter the year (only) in which the material was produced." />
+				<element type="related item" class="Related_Item_Form_Element" />
+				<element type="other url" class="Other_URL_Form_Element" />
 			</panel>
 			<panel>
 				<name language="eng">Administrative Info</name>
@@ -43,10 +47,20 @@
 
  <!--  This defines the constants which can not be edited by the user   --> 
 	<constants>
-		<element type="OtherTitle" subtype="simple" mandatory="false" acronym="Enter the any additional titles for your material here.">
+		<element type="OtherTitle" class="Other_Title_Form_Element" mandatory="false">
 		  <element_data>
 		    <value>Alexander Linn papers. Lantern slides</value>
 		  </element_data>
+		</element>
+		<element type="group title" class="Group_Title_Element">
+			<element_data>
+				<value>Alexander Linn papers</value>
+			</element_data>
+		</element>
+		<element type="ead" class="EAD_Form_Element">
+			<element_data>
+				<value>http://www.library.ufl.edu/spec/pkyonge/linn.htm</value>
+			</element_data>
 		</element>
 		<element type="Type"  mandatory="true" acronym="Select the type which best categorizes this material.">
 			<element_data>

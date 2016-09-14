@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<input_template
+  xmlns="http://digital.uflib.ufl.edu/metadata/sobekcm_template/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://digital.uflib.ufl.edu/metadata/sobekcm_template/
+		http://digital.uflib.ufl.edu/metadata/sobekcm_template/sobekcm_template.xsd">
+	
+	<!-- Define the information about this input template -->
+	<name>Lantern Slides</name>
+	<dateCreated>September 14, 2016</dateCreated>
+	<lastModified>September 14, 2016</lastModified>
+	<creator>Allison Jai O'Dell</creator>
+	<includeUserAsAuthor>false</includeUserAsAuthor>
+	<uploads>FILE</uploads>
+	<uploadMandatory>true</uploadMandatory>
+	<bibidRoot>AA</bibidRoot>
+	<defaultVisibility>PRIVATE</defaultVisibility>
+	<emailUponSubmit>ajodell@ufl.edu</emailUponSubmit>
+
+	<!-- This defines the inputs which are available for the user -->
+	<inputs>
+		<page>
+			<name language="eng">Item Description</name>
+			<panel>
+				<name language="eng">Resource Description</name>
+				<element type="title" subtype="simple" />
+				<element type="creator" subtype="simple" acronym="Enter each person or group which created this material." repeatable="true"/>
+				<element type="Format" />
+				<element type="subject" subtype="simple" repeatable="true" />
+				<element type="Abstract" repeatable="true" subtype="simple" acronym="Enter abstract here.  If your material does not have an abstract, you may include a summary of the document here."/>
+				<element type="Note" repeatable="true" subtype="simple"
+				         acronym="Enter any additional information that is important for describing your material.  Include significant keywords or other data useful for finding your material in a citation-only search."/>
+				<element type="Date" acronym="Enter the year (only) in which the material was produced." />
+			</panel>
+		</page>
+	</inputs>
+
+ <!--  This defines the constants which can not be edited by the user   --> 
+	<constants>
+	  <element type="">
+			<element_data>
+				<value></value>
+			</element_data>
+		</element>
+		<element type="visibility" />	
+		<element type="rights" />
+		<element type="OtherTitle" subtype="simple" mandatory="false" acronym="Enter the any additional titles for your material here.">
+		  <element_data>
+		    <value>Alexander Linn papers. Lantern slides</value>
+		  </element_data>
+		</element>
+		<element type="Type"  mandatory="true" acronym="Select the type which best categorizes this material.">
+			<element_data>
+				<value>Photograph</value>
+			</element_data>
+		</element>
+		<element type="Source" subtype="complex">
+			<element_data>
+				<code>UFDC</code>
+				<statement>University of Florida Digital Collections</statement>
+				<options>UFIR</options>
+			</element_data>
+		</element>
+		<element type="aggregations">
+			<element_data>
+				<value>pkyonge</value>
+			</element_data>
+		</element>
+		<element type="language">
+			<element_data>
+				<value>English</value>
+			</element_data>
+		</element>
+		<element type="genre">
+			<element_data>
+				<value>Lantern slides</value>
+			</element_data>
+		</element>
+	</constants>
+</input_template>

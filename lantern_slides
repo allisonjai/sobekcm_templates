@@ -33,18 +33,16 @@
 				         acronym="Enter any additional information that is important for describing your material.  Include significant keywords or other data useful for finding your material in a citation-only search."/>
 				<element type="Date" acronym="Enter the year (only) in which the material was produced." />
 			</panel>
+			<panel>
+				<name language="eng">Administrative Info</name>
+				<element type="visibility" />	
+				<element type="rights" />
+			</panel>
 		</page>
 	</inputs>
 
  <!--  This defines the constants which can not be edited by the user   --> 
 	<constants>
-	  <element type="">
-			<element_data>
-				<value></value>
-			</element_data>
-		</element>
-		<element type="visibility" />	
-		<element type="rights" />
 		<element type="OtherTitle" subtype="simple" mandatory="false" acronym="Enter the any additional titles for your material here.">
 		  <element_data>
 		    <value>Alexander Linn papers. Lantern slides</value>
